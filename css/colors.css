@@ -1,0 +1,12 @@
+/* Dark */
+.ins-text-dark,
+.ins-title,
+.ins-subtitle,
+p,
+body {
+    color: #101727;
+}
+
+.ins-footer-top {
+    background-color: rgba(250, 246, 247, 0.4);
+}

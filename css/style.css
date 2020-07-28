@@ -1,0 +1,75 @@
+body {
+    font-family: Helvetica;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
+.ins-header {
+    box-shadow: 0 10px 24px rgba(0,0,0,0.05);
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+/* Button */
+.ins-btn {
+    background-color: #7F6AEE;
+    border-color: #7F6AEE;
+    padding: 5px 25px;
+}
+
+/* Title */
+.ins-title {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+/* Sub Title  */
+.ins-subtitle {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+/* Small Title  */
+.ins-small-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Text */
+.ins-text {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+/* Footer */
+.ins-footer-top {
+    padding: 40px 0;
+}
+.ins-card-img img {
+    height: 43px;
+}
+.ins-copyright-footer {
+    padding: 15px 0;
+    font-size: 14px;
+    background-color: #fff;
+}
+.ins-footer-menu a {
+    color: #101727;
+    text-decoration: none;
+}
+.ins-social-links a {
+    color: rgb(16, 23, 39, 0.5);
+}
+
+/* Shape */
+ .ins-bg-shape {
+    background-image: url(../img/bg-shape.svg);
+    background-repeat: no-repeat;
+    background-position: 750px -100px;
+    background-size: contain;
+ }
