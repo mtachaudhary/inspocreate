@@ -156,3 +156,7 @@ img {
     line-height: 1.4;
     margin-bottom: 0;
 }
+
+.ins-full-screen {
+    height: calc(100vh - 76.45px);
+}

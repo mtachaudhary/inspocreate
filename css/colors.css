@@ -10,3 +10,9 @@ body {
 .ins-footer-top {
     background-color: rgba(250, 246, 247, 0.4);
 }
+
+/* Secondary */
+.ins-btn:hover {
+    background-color: #a93a8c;
+    border-color: #a93a8c;
+}
