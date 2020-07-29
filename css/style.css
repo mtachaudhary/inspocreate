@@ -40,7 +40,7 @@ img {
 
 /* Text */
 .ins-text {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
     margin-bottom: 0;
     line-height: 1.5;
@@ -67,9 +67,92 @@ img {
 }
 
 /* Shape */
- .ins-bg-shape {
+.ins-bg-shape {
     background-image: url(../img/bg-shape.svg);
     background-repeat: no-repeat;
     background-position: 750px -100px;
     background-size: contain;
  }
+
+/* Contact Form  */
+.ins-contact-form {
+    box-shadow: 0 6px 10px 0 rgba(131, 134, 163, 0.12);
+}
+.ins-contact-form input, .ins-contact-form textarea, .ins-contact-form .custom-file-label {
+    border-radius: 2px;
+    box-shadow: 0 6px 10px 0 rgba(131, 134, 163, 0.12);
+    border: solid 1px #e0e3e7;
+    font-size: 14px;
+}
+.ins-contact-form input, 
+.ins-contact-form .custom-file-label,
+.ins-contact-form .ins-btn {
+    height: 50px;
+}
+.ins-contact-form .ins-btn {
+    border: 1px solid #E0E3E7;
+    border-radius: 2px;
+}
+
+
+/* Are You */
+.ins-info-card {
+    background-color: #fff;
+    box-shadow: 0 6px 10px 0 rgba(131, 134, 163, 0.12);
+}
+.ins-info-card p {
+    margin-bottom: 0;
+}
+
+
+/* Vertical Separator  */
+.ins-ver-separator {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+.ins-ver-separator::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 2px dashed #707070;
+    height: 100%;
+    z-index: -1;
+}
+
+
+/* Timeline */
+.ins-timeline-wrap {
+    padding-bottom: 0;
+}
+.ins-timeline-item {
+    background-color: #fff;
+    padding: 15px 0;
+    margin-bottom: 150px;
+}
+.ins-timeline-item:last-child {
+    margin-bottom: 0;
+}
+.ins-timeline-img {
+    background-color: #fff;
+    box-shadow: 0 6px 10px 0 rgba(131, 134, 163, 0.12);
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0;
+}
+.ins-timeline-counter {
+    font-size: 85px;
+    font-weight: 700;
+    color: rgba(16, 23, 39, 0.1);
+    line-height: 70px;
+}
+.ins-timeline-content-box {
+    padding: 12px 0;
+}
+.ins-timeline-content-box p {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 0;
+}

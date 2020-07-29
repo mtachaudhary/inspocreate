@@ -1,0 +1,24 @@
+/* Responsive CSS */
+
+
+/* Breakpoint max-width 767px */
+@media only screen and (max-width: 767.98px) {
+    .ins-title {
+        font-size: 30px;
+    }
+
+    .ins-text {
+        font-size: 18px;
+    }
+
+    .ins-subtitle {
+        font-size: 26px;
+    }
+
+    .ins-timeline-item {
+        margin-bottom: 100px;
+    }
+    .ins-timeline-content-box p {
+        font-size: 18px;
+    }
+}
