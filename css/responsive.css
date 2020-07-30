@@ -1,6 +1,14 @@
 /* Responsive CSS */
 
 
+/* Breakpoint max-width 991px */
+@media only screen and (max-width: 991.98px) {
+    .ins-thankyou-box {
+        padding: 50px 60px;
+    }
+}
+
+
 /* Breakpoint max-width 767px */
 @media only screen and (max-width: 767.98px) {
     .ins-title {
@@ -20,5 +28,15 @@
     }
     .ins-timeline-content-box p {
         font-size: 18px;
+    }
+}
+
+/* Breakpoint max-width 575px */
+@media only screen and (max-width: 575.98px) {
+    .ins-thankyou-box {
+        padding: 30px 20px;
+    }
+    .ins-thankyou-box .figure img {
+        height: 120px;
     }
 }

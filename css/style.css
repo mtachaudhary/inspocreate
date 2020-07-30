@@ -18,7 +18,9 @@ img {
     background-color: #7F6AEE;
     border-color: #7F6AEE;
     padding: 5px 25px;
+    border-radius: 2px;
 }
+
 
 /* Title */
 .ins-title {
@@ -91,7 +93,6 @@ img {
 }
 .ins-contact-form .ins-btn {
     border: 1px solid #E0E3E7;
-    border-radius: 2px;
 }
 
 
@@ -157,6 +158,46 @@ img {
     margin-bottom: 0;
 }
 
+/* Thank you Page  */
 .ins-full-screen {
     height: calc(100vh - 76.45px);
+}
+.ins-thankyou-box {
+    position: relative;
+    padding: 50px 100px;
+    background-color: #fff;
+    box-shadow: 0 6px 10px 0 rgba(131, 134, 163, 0.12);
+    text-align: center;
+}
+.ins-thankyou-box::before {
+    content: '';
+    position: absolute;
+    bottom: 75%;
+    left: 60%;
+    background-image: url(../img/pink-bg.svg);
+    width: 632px;
+    height: 357px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+.ins-thankyou-box::after {
+    content: '';
+    position: absolute;
+    top: 88%;
+    right: 80%;
+    background-image: url(../img/blue-bg.svg);
+    width: 275px;
+    height: 134px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+.ins-thankyou-box .figure img {
+    height: 180px;
+}
+.ins-thankyou-box .ins-btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 25px;
 }
