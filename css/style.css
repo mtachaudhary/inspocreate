@@ -67,8 +67,14 @@ img {
     color: #101727;
     text-decoration: none;
 }
+.ins-footer-menu a:hover {
+    text-decoration: underline;
+}
 .ins-social-links a {
     color: rgb(16, 23, 39, 0.5);
+}
+.ins-social-links a:hover {
+    color: #7F6AEE;
 }
 
 /* Shape */
